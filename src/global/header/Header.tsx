@@ -3,7 +3,7 @@ import { FaBasketShopping, FaUser, FaCartShopping } from "react-icons/fa6";
 
 function Header() {
   return (
-    <header className="p-[10px] h-[70px] fixed w-full left-0 bg-white overflow-hidden">
+    <header className="p-[10px] h-[70px] sticky w-full left-0 bg-white overflow-hidden">
       <div className="container">
         <div className="flex justify-between items-center">
           <div className="logo">
@@ -14,7 +14,7 @@ function Header() {
               <span className="text-[25px] font-medium">Basket</span>
             </Link>
           </div>
-          <div className="hidden search w-[40%] md:flex items-center p-2">
+          <div className="hidden search w-[40%] md:flex items-center h-[30px] p-2">
             <input type="text" placeholder="search" className="w-full p-2 border-[2px] border-solid border-[#ccc] border-r-0 rounded-[25px_0_0_25px] outline-none" />
             <button className="p-2 bg-[#2a2185] text-[#fff] text-[18px] rounded-[0_25px_25px_0]">Search</button>
           </div>

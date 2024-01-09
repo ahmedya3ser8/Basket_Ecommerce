@@ -1,7 +1,10 @@
+import Hero from "../components/hero/Hero";
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    <main className="overflow-hidden">
+      <Hero />
+    </main>
   )
 }
 
