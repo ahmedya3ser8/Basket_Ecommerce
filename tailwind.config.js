@@ -13,6 +13,15 @@ export default {
         xl: '1200px',
         '2xl': '1400px'
       },
+      animation: {
+        'arrow-bounce': 'arrow-bounce 1.5s linear infinite',
+      },
+      keyframes: {
+        'arrow-bounce': {
+          '0%, 100%': { transform: 'translatex(25%)' },
+          '50%': { transform: 'translatex(0)' },
+        }
+      }
     },
   },
   plugins: [],
