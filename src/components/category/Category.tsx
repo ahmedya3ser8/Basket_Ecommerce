@@ -1,9 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import { FaArrowRightLong } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
 
 import 'swiper/css/bundle';
+import MainTitleInfo from '../main-title/MainTitleInfo';
 
 function Category() {
   const categories = [
@@ -18,15 +17,7 @@ function Category() {
   return (
     <div className='py-8'>
     <div className="container">
-      <div className="flex justify-between items-center mb-5">
-        <h2 className='text-[#2a2185] text-[28px] font-medium relative before:absolute before:w-[60px] before:h-[2px] before:bottom-0 before:translate-x-[40%] before:mb-[-2px] before:bg-[#2a2185]'>Category</h2>
-        <Link to={''} className='bg-[#2a2185] text-white p-2 flex justify-around items-center gap-1 rounded-[20px] w-[100px]'>
-          <span className='block text-[18px]'>more</span>
-          <span className='block animate-[arrow-bounce_1.5s_linear_infinite]'>
-            <FaArrowRightLong />
-          </span>
-        </Link>
-      </div>
+      <MainTitleInfo title={'Category'} linkText={'categories'} />
       <Swiper 
         className='py-3'
         autoplay={{
