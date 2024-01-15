@@ -1,3 +1,5 @@
+import BestSeller from "../components/best-seller/BestSeller";
+import Brands from "../components/brands/Brands";
 import Category from "../components/category/Category";
 import Discount from "../components/discount/Discount";
 import Hero from "../components/hero/Hero";
@@ -10,6 +12,8 @@ function HomePage() {
       <Category />
       <Products />
       <Discount />
+      <BestSeller />
+      <Brands />
     </main>
   )
 }

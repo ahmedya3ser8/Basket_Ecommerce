@@ -49,8 +49,8 @@ function Category() {
         }}
       >
         {categories.map((category, index) => (
-          <SwiperSlide className='bg-white p-3 w-[180px] h-[80px] rounded-[10px]' >
-            <div className="flex justify-between items-center" key={index}>
+          <SwiperSlide className='bg-white p-3 w-[180px] h-[80px] rounded-[10px]' key={index} >
+            <div className="flex justify-between items-center">
               <img src={category.imgUrl} alt="category-img" className='w-[50px]' />
               <h2 className='text-[18px]'>{category.title}</h2>
             </div>
