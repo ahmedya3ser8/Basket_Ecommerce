@@ -1,9 +1,9 @@
-import BestSeller from "../components/best-seller/BestSeller";
-import Brands from "../components/brands/Brands";
-import Category from "../components/category/Category";
-import Discount from "../components/discount/Discount";
-import Hero from "../components/hero/Hero";
-import Products from "../components/products/Products";
+import BestSeller from "../components/home-page/best-seller/BestSeller";
+import Brands from "../components/home-page/brands/Brands";
+import Category from "../components/home-page/category/Category";
+import Discount from "../components/home-page/discount/Discount";
+import Hero from "../components/home-page/hero/Hero";
+import Products from "../components/home-page/products/Products";
 
 function HomePage() {
   return (

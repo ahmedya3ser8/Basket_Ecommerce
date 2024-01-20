@@ -14,7 +14,7 @@ function BestSeller() {
   return (
     <section className="py-5">
       <div className="container">
-        <MainTitleInfo title="Best Seller" linkText="bestSeller" />
+        <MainTitleInfo title="Best Seller" linkText="products" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {products.map((product, index) => (
             <div className="bg-white p-5 rounded-[10px] group" key={index}>

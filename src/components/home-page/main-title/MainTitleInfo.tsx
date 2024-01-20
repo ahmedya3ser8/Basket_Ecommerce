@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import { TmainTitle } from "../../types/app";
+import { TmainTitle } from "../../../types/app";
 
 function MainTitleInfo({title, linkText}: TmainTitle) {
   return (
